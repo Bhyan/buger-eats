@@ -1,0 +1,53 @@
+{
+    "signup": {
+        "name": "Teste",
+        "cpf": "00000014114",
+        "email": "teste@teste.com",
+        "whatsapp": "1199999999",
+        "address": {
+            "cep": "04534011",
+            "street": "Rua Joaquim Floriano",
+            "number": "1000",
+            "details": "Ap 142",
+            "district": "Itaim Bibi",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg",
+        "expectedMessage": "Recebemos os seus dados. Fique de olho na sua caixa de email, pois e em breve retornamos o contato."
+    },
+    "cpf_inv": {
+        "name": "Teste",
+        "cpf": "000000141AA",
+        "email": "teste@teste.com",
+        "whatsapp": "1199999999",
+        "address": {
+            "cep": "04534011",
+            "street": "Rua Joaquim Floriano",
+            "number": "1000",
+            "details": "Ap 142",
+            "district": "Itaim Bibi",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg",
+        "expectedMessage": "Oops! CPF inválido"
+    },
+    "email_inv": {
+        "name": "Teste",
+        "cpf": "00000014114",
+        "email": "testeteste.com",
+        "whatsapp": "1199999999",
+        "address": {
+            "cep": "04534011",
+            "street": "Rua Joaquim Floriano",
+            "number": "1000",
+            "details": "Ap 142",
+            "district": "Itaim Bibi",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg",
+        "expectedMessage": "Oops! Email com formato inválido."
+    }
+}
